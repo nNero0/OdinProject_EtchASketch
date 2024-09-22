@@ -1,0 +1,27 @@
+body{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container{
+display: flex;
+height: 800px;
+width: 800px;
+border: dashed 1px red;;
+flex-wrap: wrap;
+align-content: flex-start;
+}
+
+.item-container{
+    border : solid 1px black;
+    height: 6.25%;
+    min-width:6.25%;
+    flex:0 0 auto;
+    padding : 0;
+    box-sizing: border-box;
+}
+
